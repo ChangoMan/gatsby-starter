@@ -26,7 +26,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 630,
             },
           },
           "gatsby-remark-copy-linked-files",
@@ -35,14 +35,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `source sans pro\:300,300i,400,400i,600` // you can also specify font weights and styles
-        ]
-      }
-    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`
   ],
