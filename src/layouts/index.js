@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../scss/main.scss'
+import '../assets/scss/main.scss'
 
 class Template extends React.Component {
   render() {
